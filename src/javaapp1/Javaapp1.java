@@ -18,11 +18,13 @@ public class Javaapp1 {
         Product p1 = new Laptop("HP TouchSmart", (float) 20.00, "15", "Intel i7"); 
 	Product p2 = new Mobile("HTC mini 2", (float) 100.00, "HTC" ,"Android");
 	Product p3 = new Laptop("Dell XPS", (float) 50.00, "17", "Intel i7"); 
+	Product p4 = new Laptop("ALienware", (float) 800.00, "17", "Intel i7");
 		
 		Cart c = new Cart();
 		c.addProduct(p1, 5);
 		c.addProduct(p2, 1);
 		c.addProduct(p3, 1);
+		c.addproduct(p4,2);
 		
 		System.out.println(c.toString());
 
